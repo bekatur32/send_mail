@@ -1,6 +1,6 @@
 const functions = require('firebase-functions');
 const nodemailer = require('nodemailer');
-
+//тут отправка сообщений
 // Configure the email transport using the default SMTP transport and a GMail account.
 // For Gmail, enable "Allow less secure apps" option in your account.
 const mailTransport = nodemailer.createTransport({

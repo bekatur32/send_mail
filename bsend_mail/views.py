@@ -8,6 +8,7 @@ from firebase_admin import auth
 from firebase_admin import functions
 
 class SendWelcomeEmailView(APIView):
+    #
 
     def post(self, request):
         email = request.data.get('email')
